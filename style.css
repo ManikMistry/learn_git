@@ -1,1 +1,7 @@
 
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(100, 239, 98);
+    text-transform: uppercase;
+}
