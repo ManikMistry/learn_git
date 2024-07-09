@@ -1,7 +1,23 @@
-
-body{
-    height: 100vh;
-    width: 100vw;
-    background-color: rgb(100, 239, 98);
-    text-transform: uppercase;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: gainsboro;
+  box-shadow: 2px 2px 2px gray;
+  width: 400px;
+  height: 200px;
+  padding: 10px;
 }
